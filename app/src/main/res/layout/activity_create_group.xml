@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anonymous.notes4u.CreateGroup">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Group Name"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:background="@drawable/input_add_post"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/et_create_name" />
+
+    <Button
+        android:text="Create"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn_create_create"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_below="@+id/et_create_name"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_add_post"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et_create_email"
+        android:hint="Add Members" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/et_create_email"
+        android:id="@+id/lv_create_list"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/ic_add_black_24dp"
+        android:background="@color/transparent"
+        android:id="@+id/ib_create_add"
+        android:layout_alignTop="@+id/et_create_email"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+</RelativeLayout>

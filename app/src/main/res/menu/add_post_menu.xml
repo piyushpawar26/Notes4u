@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_img_add"
+        android:title="Add"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_add_white_24dp"></item>
+
+    <item android:id="@+id/menu_img_cam"
+        android:title="Camera"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_camera_enhance_white_24dp"></item>
+
+    <item android:id="@+id/menu_img_pdf"
+        android:title="PDF"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_assignment_white_24dp"></item>
+
+</menu>

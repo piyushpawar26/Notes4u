@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anonymous.notes4u.LoginActivity"
+    android:background="#000026">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:hint="Email"
+                android:id="@+id/et_login_email"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_boxes"
+                android:layout_below="@+id/tv_login_maintext"
+                android:layout_alignLeft="@+id/et_login_password"
+                android:layout_alignStart="@+id/et_login_password" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:id="@+id/et_login_password"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/et_login_email"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/input_boxes" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:text="Login"
+                android:id="@+id/btn_login_login"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/et_login_password"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/buttons" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Register Here"
+                android:textColor="#ffffff"
+                android:id="@+id/tv_login_register"
+                android:layout_below="@+id/btn_login_login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Login"
+                android:textSize="50sp"
+                android:id="@+id/tv_login_maintext"
+                android:layout_marginTop="88dp"
+                android:textColor="#ffffff"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_topic_add"
+        android:title="Add"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_add_white_24dp"></item>
+
+    <item android:id="@+id/menu_topic_cam"
+        android:title="Camera"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_camera_enhance_white_24dp"></item>
+
+    <item android:id="@+id/menu_topic_pdf"
+        android:title="PDF"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_assignment_white_24dp"></item>
+
+    <item android:id="@+id/menu_topic_imp"
+        android:title="Important"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_grade_white_24dp"/>
+
+</menu>

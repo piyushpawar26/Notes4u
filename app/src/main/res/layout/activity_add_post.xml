@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anonymous.notes4u.AddPostActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="#e5e5e5"
+        android:layout_alignParentStart="true"
+        android:fillViewport="true"
+        android:id="@+id/sc_post">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/ll_post_images">
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textPersonName"
+        android:hint="Add Title..."
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_add_post"
+        android:layout_below="@+id/sc_post"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:id="@+id/et_add_title" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:lines="5"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:background="@drawable/input_add_post"
+        android:scrollHorizontally="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/et_add_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/et_add_desc"
+        android:hint="Add Description....." />
+
+    <Button
+        android:text="Post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_post_post" />
+
+</RelativeLayout>

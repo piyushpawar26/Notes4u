@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "589339783568",
+    "firebase_url": "https://notes4u-e0a29.firebaseio.com",
+    "project_id": "notes4u-e0a29",
+    "storage_bucket": "notes4u-e0a29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589339783568:android:cf03fd727141c10b",
+        "android_client_info": {
+          "package_name": "anonymous.notes4u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589339783568-tpp12kemgq21kojtueqj45shikesugme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkhZ-kxlsUIoeyzc_VCsQB3RNchNut12Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

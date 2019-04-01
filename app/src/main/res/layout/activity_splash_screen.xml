@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anonymous.notes4u.SplashScreen">
+
+
+    <TextView
+        android:text="Notes4U"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:textColor="#a8a8a8"
+        android:id="@+id/notesText"
+        android:layout_marginBottom="99dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notes_material_one"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="91dp"
+        android:layout_above="@+id/notesText"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
